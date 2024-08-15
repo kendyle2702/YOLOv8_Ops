@@ -1,6 +1,6 @@
-train: ./train
-val: ./valid
-test: ./test
+train: /home/runner/work/YOLOv8_Ops/YOLOv8_Ops/train
+val: /home/runner/work/YOLOv8_Ops/YOLOv8_Ops//valid
+test: /home/runner/work/YOLOv8_Ops/YOLOv8_Ops//test
 
 nc: 1
 names: ['wooden_pallet']
