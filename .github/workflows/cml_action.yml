@@ -9,7 +9,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: 3.8
       - uses: iterative/setup-cml@v2
       - name: Train YOLO model
         env:
